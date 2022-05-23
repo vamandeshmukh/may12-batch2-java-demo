@@ -27,7 +27,9 @@ public class Employee {
 
 		officeAddress = "Gachibowli, Hyderabad";
 
-		Employee obj = new Employee();
+		Employee obj = new Employee(); // object creation
+		Employee obj2 = new Employee(); // object creation
+		Employee obj3 = new Employee(); // object creation
 
 		obj.eid = 101;
 		obj.name = "Sonu";
