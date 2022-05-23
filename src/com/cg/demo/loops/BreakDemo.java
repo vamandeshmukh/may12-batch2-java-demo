@@ -10,7 +10,7 @@ public class BreakDemo {
 			System.out.println(num);
 			num++;
 
-			if (coldrink == false) {
+			if (num == 5) {
 				break; // stop the loop and exit 
 			}
 		}

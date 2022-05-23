@@ -11,7 +11,7 @@ public class ContinueDemo {
 			System.out.println(num);
 			num++;
 
-			if (bottle == false) {
+			if (num == 5) {
 				continue; // skips one iteration
 			}
 		}
