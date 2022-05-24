@@ -6,6 +6,17 @@ public class Employee {
 	String name;
 	double salary;
 
+	Employee() {
+		System.out.println("no-args constructor");
+	}
+
+	Employee(int eid, String name, double salary) {
+		System.out.println("constructor with arguments");
+		this.eid = eid;
+		this.name = name;
+		this.salary = salary;
+	}
+
 	void work() {
 		System.out.println("Employee works...");
 	}
