@@ -10,8 +10,14 @@ public class Employee {
 		System.out.println("no-args constructor");
 	}
 
+	Employee(int eid, String name) {
+		System.out.println("constructor with 2 arguments");
+		this.eid = eid;
+		this.name = name;
+	}
+
 	Employee(int eid, String name, double salary) {
-		System.out.println("constructor with arguments");
+		System.out.println("constructor with 3 arguments");
 		this.eid = eid;
 		this.name = name;
 		this.salary = salary;

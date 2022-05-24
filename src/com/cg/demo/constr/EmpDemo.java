@@ -32,14 +32,13 @@ public class EmpDemo {
 
 		Employee emp4 = new Employee(104, "Ponu", 65000);
 		System.out.println(emp4.toString());
+
+		Employee emp5 = new Employee(105, "Donu");
+		System.out.println(emp5.toString());
+
 	}
 
 }
-
-
-
-
-
 
 
 
