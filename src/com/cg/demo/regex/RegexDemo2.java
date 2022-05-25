@@ -4,10 +4,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class RegexDemo2 {
- 
+
 	public static void main(String[] args) {
 
-		String regex = "[a-z]"; // any letters from a to z
+		String regex = "[a-z]|[A-Z]|[0-9]|[@]"; // any letters from a to z
 
 		Pattern pat = Pattern.compile(regex);
 
