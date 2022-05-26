@@ -1,10 +1,13 @@
 package com.cg.demo.oop;
-//- method overloading - 
 
+//- method overloading - 
 //methods with the same name but with different arguments 
+
 //- 1. number of arguments should be different 
 //- 2. types of arguments should be different 
 //- 3. order of arguments should be different 
+
+// both in static and non static ways  
 
 public class OverloadingDemo {
 
