@@ -1,5 +1,9 @@
 package com.cg.demo.oop;
 
+// inheritance - 
+
+// subclass extends super class and acquires its properties. 
+
 public class InheritanceDemo {
 
 	public static void main(String[] args) {
@@ -9,12 +13,12 @@ public class InheritanceDemo {
 		phone1.call();
 		phone1.sms();
 
-		System.out.println("smart phone");
+		System.out.println("\nsmart phone");
 		SmartPhone phone2 = new SmartPhone();
-		phone2.camera();
-		phone2.music();
 		phone2.call();
 		phone2.sms();
+		phone2.camera();
+		phone2.music();
 
 	}
 

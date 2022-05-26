@@ -15,6 +15,11 @@ class BasicPhone {
 
 class SmartPhone extends BasicPhone {
 
+	@Override
+	void call() {
+		System.out.println("Smart calling...");
+	}
+
 	void music() {
 		System.out.println("Playing music...");
 	}
