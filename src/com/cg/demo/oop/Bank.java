@@ -1,5 +1,11 @@
 package com.cg.demo.oop;
 
+interface FinanceMinistry {
+
+	abstract void paySalary();
+
+}
+
 abstract class Rbi {
 
 	abstract void doKyc();
@@ -9,11 +15,16 @@ abstract class Rbi {
 	}
 }
 
-class Hdfcbank extends Rbi {
+class Hdfcbank extends Rbi implements FinanceMinistry {
 
 	@Override
 	void doKyc() {
 		System.out.println("Aadhaar");
+	}
+
+	@Override
+	public void paySalary() {
+		System.out.println("pay salary");
 	}
 }
 
@@ -28,5 +39,3 @@ class AxisBank extends Rbi {
 public class Bank {
 
 }
-
-

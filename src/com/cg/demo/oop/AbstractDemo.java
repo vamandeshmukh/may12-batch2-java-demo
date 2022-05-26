@@ -4,8 +4,8 @@ package com.cg.demo.oop;
 // abstract class
 // interface 
 
-//abstract method -
-//it has the keyword abstract 
+// abstract method -
+// it has the keyword abstract 
 // does not have method body 
 // it has only method signature 
 // it can be created in abstract class, not in concrete class  
@@ -13,7 +13,10 @@ package com.cg.demo.oop;
 // abstract class 
 // it has the keyword abstract 
 // it contains 0 or more abstract methods 
+// it also contains 0 or more concrete methods 
 // its object can not be created 
+// a concrete class should extend that abstract class - 
+// and should override that abstract method 
 
 public class AbstractDemo {
 
@@ -27,16 +30,7 @@ public class AbstractDemo {
 		bank2.payInterest();
 		bank2.doKyc();
 
+//		Rbi bank3 = new Rbi(); // CE 
+
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
