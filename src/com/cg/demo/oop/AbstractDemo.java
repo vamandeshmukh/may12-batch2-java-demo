@@ -18,9 +18,19 @@ package com.cg.demo.oop;
 // a concrete class should extend that abstract class - 
 // and should override that abstract method 
 
+// interface - 
+// it allows multiple inheritance 
+// it basically contains abstract methods 
+// its object can not be created 
+// a concrete class should implement that interface - 
+// and should override that abstract method 
+
 public class AbstractDemo {
 
 	public static void main(String[] args) {
+		
+		String str = "abc";
+		
 
 		Hdfcbank bank1 = new Hdfcbank();
 		bank1.payInterest();
