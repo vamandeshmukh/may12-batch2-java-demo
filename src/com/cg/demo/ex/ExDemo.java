@@ -13,15 +13,17 @@ public class ExDemo {
 		System.out.println("Enter num2:");
 		int num2 = sc.nextInt();
 
-		try {
-			System.out.println(num1 / num2);
-		} 
-		catch (ArithmeticException e) 
-		{
-			System.out.println("Don't divide by 0.");
-		}
-		
-		System.out.println("End");
+		System.out.println(num1 / num2);
+
+//		try {
+//			System.out.println(num1 / num2);
+//		} catch (ArithmeticException obj) {
+//			System.out.println("Don't divide by 0.");
+//			obj.printStackTrace();
+//		} finally {
+//			sc.close();
+//			System.out.println("End");
+//		}
 
 //		try {
 //			// code that may cause exception 
